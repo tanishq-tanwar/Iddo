@@ -377,7 +377,7 @@ button {
   height: 3rem;
 }
 .wrap-10 input::placeholder {
-  font-size: clamp(2rem,6vh,4.25rem);
+  font-size: clamp(2rem,5vh,4rem);
   color: #fff;
 }
 .wrap-11 {
