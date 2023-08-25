@@ -663,7 +663,7 @@ button {
 .wrap-10 .btn {
     max-width: 60px;
     width: 100%;
-    background: transparent;
+    background: white;
     color: #ca3c3c;
     border: 1.5px solid #ca3c3c;
     border-radius: 8px;
@@ -677,6 +677,9 @@ button {
     width: 100%;
     max-width: 600px;
     height: 2.4rem;
+}
+.wrap-10 input: placeholder {
+  font-size:2rem;
 }
 .wrap-12 {
     padding: 40px 0 80px;
