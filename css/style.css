@@ -678,8 +678,8 @@ button {
     max-width: 600px;
     height: 2.4rem;
 }
-.wrap-10 input: placeholder {
-  font-size:2rem;
+.wrap-10 input::placeholder {
+  font-size: 1.25rem;
 }
 .wrap-12 {
     padding: 40px 0 80px;
