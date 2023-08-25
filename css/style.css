@@ -96,7 +96,7 @@ button {
 .wrap-2 .col-8 a {
   text-decoration: none;
   color: #ca3c3c;
-  font-size: clamp(1px,3.5vh,16px);
+  font-size: clamp(5px,5vh,24px);
 }
 .wrap-3 {
   background: #ca3c3c;
@@ -591,6 +591,11 @@ button {
   }
 }
 @media screen and (max-width:426px) {
+.wrap-2 .col-8 a {
+  text-decoration: none;
+  color: #ca3c3c;
+  font-size: clamp(1px,3.5vh,16px);
+}
 .wrap-4 .fa {
     font-size: 1.8rem;
     color: #ca3c3c;}
