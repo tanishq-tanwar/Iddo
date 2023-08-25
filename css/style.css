@@ -679,7 +679,8 @@ button {
     height: 2.4rem;
 }
 .wrap-10 input::placeholder {
-  font-size: 0.6rem;
+  font-size: 0.5rem;
+  color: #fff;
 }
 .wrap-12 {
     padding: 40px 0 80px;
