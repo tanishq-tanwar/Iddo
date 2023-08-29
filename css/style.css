@@ -591,6 +591,15 @@ button {
     max-width: 50%;
   }
 }
+@media screen and (max-width:604px) {
+ .wrap-10 .col-2 {
+    flex-basis: calc(2.5/12 * 100%);
+    max-width: calc(2.5/12 * 100%);
+}
+.wrap-10 .btn {
+  font-size: 2.2vw;
+}
+}
 @media screen and (max-width:426px) {
 .wrap-2 .col-8 a {
   text-decoration: none;
@@ -691,7 +700,7 @@ button {
     border: 1.5px solid #ca3c3c;
     border-radius: 8px;
     line-height: 1.4rem;
-    font-size: 0.45rem;
+    font-size: 1.8vw;
 }
 .wrap-10 input {
     border: none;
@@ -700,10 +709,6 @@ button {
     width: 100%;
     max-width: 600px;
     height: 2.4rem;
-}
-.wrap-10 input::placeholder {
-  font-size: 0.5rem;
-  color: #fff;
 }
 .wrap-12 {
     padding: 40px 0 80px;
