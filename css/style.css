@@ -642,7 +642,7 @@ button {
   max-width: calc(2.5/12 * 100%);
 }
 .wrap-10 input::placeolder {
-  font-size: 1.6vw;
+  font-size: 1.1vw;
 }
 .seemore {
     cursor: pointer;
