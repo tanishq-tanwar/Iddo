@@ -643,6 +643,10 @@ button {
   flex-basis: calc(2.5/12 * 100%);
   max-width: calc(2.5/12 * 100%);
 }
+.wrap-10 .col-6 {
+  flex-basis: calc(8/12 * 100%);
+  max-width: calc(8/12 * 100%);
+}
 .wrap-10 input::placeolder {
   font-size: clamp(0.5rem,2vw,2.5rem);
 }
