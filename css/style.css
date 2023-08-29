@@ -38,6 +38,15 @@ body{
 button {
   cursor: pointer;
 }
+.none-display {
+  display: none;
+}
+.display {
+  display: block;
+}
+.no-display {
+  display: none;
+}
 .flex {
   display: flex;
 }
