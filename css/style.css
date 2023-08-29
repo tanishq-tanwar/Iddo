@@ -622,6 +622,19 @@ button {
   flex-basis: 50%;
   max-width: 50%;
 }
+.wrap-5 .pop h3 {
+  font-size: 0.8rem;
+}
+.wrap-5 .pop p {
+  font-size: 0.6rem;
+}
+.wrap-10 .col-2 {
+  flex-basis: calc(2.5/12 * 100%);
+  max-width: calc(2.5/12 * 100%);
+}
+.wrap-10 input::placeolder {
+  font-size: clamp(1.05rem,3.6vh,3.25rem);
+}
 .seemore {
     cursor: pointer;
     font-size: 1.4rem;
